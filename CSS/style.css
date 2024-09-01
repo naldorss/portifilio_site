@@ -490,7 +490,7 @@ footer{
     }
 
     header {
-        background-color: var(--main-color); /*teste*/
+        background-color: var(--color-02); /*teste*/
     }
 }
 
