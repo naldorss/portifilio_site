@@ -537,16 +537,25 @@ footer{
         width: 49%;
     }
 
-
-
-
     header {
         background-color: var(--color-03); /*teste*/
     }
 }
 
+
+
+
 /* Larg (lg): Notebook */
 @media(min-width: 992px) {
+    .home-img, .about-img{
+        max-width: 35%;
+    }
+    .services-container{
+        flex-direction: row;
+        gap: 1.2rem;
+    }
+
+
     header {
         background-color: var(--color-04); /*teste*/
     }
@@ -554,6 +563,23 @@ footer{
 
 /* Extra Large (x1): Desktop */
 @media(min-width: 1200px) {
+    .home-img, .about-img{
+        max-width: 25%;
+    }
+
+    .home-content h1{
+        font-size: 2rem;
+    }
+
+    .home-content h3{
+        font-size: 2rem;
+    }
+
+    .portfolio-container{
+        grid-template-columns: auto auto auto;
+    }
+
+
     header {
         background-color: var(--color-05); /*teste*/
     }
