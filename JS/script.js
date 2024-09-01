@@ -1,5 +1,5 @@
-const menuHamburguer = document.querySelector('.menu-hamburguer')
-    menuHamburguer.addEventList('click', () => {
+const menuHamburguer = document.querySelector('.menu-hamburguer');
+menuHamburguer.addEventListener('click', () => {
         console.log("ok"); //LOG
 
     });
