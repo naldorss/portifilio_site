@@ -1,6 +1,6 @@
 const menuHamburguer = document.querySelector('.menu-hamburguer');
 menuHamburguer.addEventListener('click', () => {
-        console.log("funciona meu filho"); //LOG
+        toggleMenu(); 
             });
 
 function toggleMenu() {
@@ -8,7 +8,9 @@ function toggleMenu() {
     menuHamburguer.classList.toggle('change');
 
     if (menuHamburguer.classList.contains('change')) {
-        nav.computedStyleMap.display 'block';
-        {}
+       nav.style.display = 'block';
+    } else {
+        nav.style.display = 'none';
     }
+        
 }
